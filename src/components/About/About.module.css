@@ -1,0 +1,160 @@
+.container {
+    height: 300vh;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.section1 {
+    width: 100vw;
+}
+
+.section1 img {
+    height: 50vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.text {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.textOne {
+    font-size: 48px;
+}
+
+.textTwo {
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 66px;
+    max-width: 100vw;
+    padding: 2% 10%;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 80px 0px;
+
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.aboutText {
+    text-align: start;
+}
+
+.aboutText h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+}
+
+.aboutText p {
+    margin-bottom: 15px;
+    letter-spacing: 0.75px;
+    text-align: justify;
+    color: #414141;
+}
+
+.aboutText,
+.progressContainer {
+    width: 100%;
+}
+
+.progressContainer {
+    margin: 20px;
+}
+
+.progressContainer h3 {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+
+.progressBar {
+    margin-bottom: 20px;
+}
+
+.leadersContainer h3 {
+    color: #111111;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.leadersContainer {
+    padding-top: 60px;
+}
+
+.teams {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 75px 0px;
+}
+
+
+
+.teamImageContainer {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.teamImageContainer img {
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+}
+
+.team {
+    width: 33.33%;
+    transition: 0.3s ease-in-out;
+}
+
+.team:hover {
+    -webkit-box-shadow: 16px 14px 38px -16px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 16px 14px 38px -16px rgba(0, 0, 0, 0.50);
+    box-shadow: 16px 14px 38px -16px rgba(0, 0, 0, 0.50);
+}
+
+.team p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #6b6b6b;
+    letter-spacing: 1px;
+}
+
+.team h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 6px;
+    color: #000000;
+}

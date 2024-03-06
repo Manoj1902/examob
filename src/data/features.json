@@ -1,0 +1,17 @@
+[
+    {
+        "imageSrc": "./images/battery-type.jpg",
+        "title": "Lithium Ion Batteries",
+        "description" : "Examob batteries are of the Li-ion type, known for their high energy density, longer lifespan, and lighter weight compared to other battery types."
+    },
+    {
+        "imageSrc": "./images/material.png",
+        "title": "Material",
+        "description" : "Examob batteries are commonly made with plastic components that provide durability and insulation to the electrical components inside. Being lightweight and cost-effective, plastic is a popular choice for battery manufacturing."
+    },
+    {
+        "imageSrc": "./images/battery-capacity.webp",
+        "title": "Capacity",
+        "description" : "The capacity of Examob Laptop Batteries up to 4400mAh and a lifespan of up to 6 years, providing long-lasting and reliable power for your device."
+    }
+]

@@ -1,0 +1,244 @@
+.container {
+    height: 310vh;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.imageContainer {
+    width: 100vw;
+    height: 100vh;
+}
+
+.imageContainer img {
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    /* opacity: 0.8; */
+    filter: brightness(50%);
+    /* z-index: 3; */
+}
+
+.text {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 52px;
+    font-weight: 600;
+}
+
+
+.textOne {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.textTwo {
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.buttonLearn {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.buttonLearn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.blackStrap {
+    background-color: #111111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+.blackStrap div {
+    text-align: end;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.blackStrap a {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.blackStrap a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* .features {
+    width: 20%;
+} */
+
+.features {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 75px 0px;
+}
+
+
+
+.featureImageContainer {
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.featureImageContainer img {
+    width: 350px;
+    height: 250px;
+    object-fit: fill;
+}
+
+.feature {
+    width: 33.33%;
+}
+
+.feature p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #414141;
+}
+
+.feature h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.icons {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 20px;
+    justify-content: center;
+    gap: 100px;
+    color: #FFFFFF;
+    background-color: #262626;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+    margin-bottom: 20px;
+    color: white;
+    filter: brightness(100%);
+}
+
+.icons h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.icons p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.iconImageContainer {
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.blogs {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 75px 0px;
+}
+
+
+
+.blogImageContainer {
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.blogImageContainer img {
+    width: 350px;
+    height: 250px;
+    object-fit: fill;
+}
+
+.blog {
+    width: 33.33%;
+}
+
+.blog p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #414141;
+    text-align: left;
+}
+
+.blog h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: left;
+
+}
+
+.blog a {
+    color: #000000;
+    text-align: left;
+    display: block;
+
+}
+
+.blog a:hover {
+    color: #414141;
+    text-align: left;
+    display: block;
+
+}
+
+.blog a::after {
+    content: "\00BB";
+    color: #666666;
+    padding-left: 5px;
+}

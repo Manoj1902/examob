@@ -1,0 +1,49 @@
+.container {
+    background-color: #111111;
+    border-top: 1px solid gray;
+    color: #FFFFFF;
+}
+
+.logoImg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.logoImg img {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.contactLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contactLinks a:hover {
+    color: #d3d3d3;
+}
+
+.textContainer h2 {
+    color: #FFFFFF;
+}
+
+.textContainer p {
+    text-align: justify;
+}
+
+.textContainer li {
+    color: #d3d3d3;
+    font-weight: 400;
+}
+
+.textContainer {
+    width: 33.33%;
+}
+
+.textContainerLinks li {
+    color: #d3d3d3;
+}

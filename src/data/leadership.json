@@ -1,0 +1,17 @@
+[
+    {
+        "image" : "./images/leaders/sushil.jpg",
+        "name": "MR. SUSHIL AGGARWAL",
+        "designation": "FOUNDER & CHAIRMAN" 
+    },
+    {
+        "image" : "./images/leaders/nepalsingh.jpg",
+        "name": "MR. NEPAL SINGH",
+        "designation": "CO-FOUNDER & DIRECTOR" 
+    },
+    {
+        "image" : "./images/leaders/SomdevSharma.jpg",
+        "name": "MR. SOMDEV SHARMA",
+        "designation": "DIRECTOR" 
+    }
+]

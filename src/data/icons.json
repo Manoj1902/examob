@@ -1,0 +1,22 @@
+[
+    {
+        "imageSrc" : "./images/icons/warrant_1.png",
+        "number" : "12",
+        "text" : "Months Warranty"
+    },
+    {
+        "imageSrc" : "./images/icons/warrant_1.png",
+        "number" : "14",
+        "text" : "Months Manufacturing Warranty"
+    },
+    {
+        "imageSrc" : "./images/icons/rupee.png",
+        "number" : "1249",
+        "text" : "Starts from (₹)"
+    },
+    {
+        "imageSrc" : "./images/icons/warrant_1.png",
+        "number" : "246",
+        "text" : "Happy Customers"
+    }
+]
