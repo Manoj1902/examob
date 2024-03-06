@@ -1,0 +1,27 @@
+[
+    {
+        "iconSrc" : "./images/icons/portability.png",
+        "title" : "PORTABILITY",
+        "description" : "With a reliable laptop battery, you can work or play on-the-go without worrying about being tethered to a power outlet."
+    },
+    {
+        "iconSrc" : "./images/icons/convenience.png",
+        "title" : "CONVENIENCE",
+        "description" : "A fully charged laptop battery means you can work or play for hours without interruption."
+    },
+    {
+        "iconSrc" : "./images/icons/productivity.png",
+        "title" : "PRODUCTIVITY",
+        "description" : "Having a reliable laptop battery ensures that you can complete your work or projects on time without any disruptions."
+    },
+    {
+        "iconSrc" : "./images/icons/cost-savings.png",
+        "title" : "COST SAVINGS",
+        "description" : "A good quality laptop battery can last for years, saving you money in the long run by not having to replace it frequently."
+    },
+    {
+        "iconSrc" : "./images/icons/sustainability.png",
+        "title" : "SUSTAINABILITY",
+        "description" : "Using a laptop battery instead of constantly using a power outlet can reduce your carbon footprint and contribute to a more sustainable lifestyle."
+    }
+]
