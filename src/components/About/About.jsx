@@ -19,7 +19,7 @@ export default function About() {
             <div className={styles.section2}>
                 <div className={styles.aboutText}>
                     <h3>YOUR ONE-STOP SHOP FOR QUALITY LAPTOP BATTERIES</h3>
-                    <p>Examob is specialize in manufacturing and distributing high-quality laptop batteries. We understand the importance of having a reliable laptop battery, whether you are a business professional, student, or someone who needs to stay connected on-the-go. That's why we are dedicated to providing the best possible products to our customers.</p>
+                    <p>Examob is specialize in manufacturing and distributing high-quality laptop batteries. We understand the importance of having a reliable laptop battery, whether you are a business professional, student, or someone who needs to stay connected on-the-go. That's why we are dedicated to providing the best possible products to our customers.</p><br />
                     <p>Our team of experts uses state-of-the-art technology and top-grade materials to manufacture laptop batteries that meet or exceed industry standards. We are committed to providing excellent service to our customers, and our knowledgeable staff is always ready to assist with any questions or concerns.</p>
                 </div>
                 <div class={styles.progressContainer}>
