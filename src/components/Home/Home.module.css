@@ -242,3 +242,74 @@
     color: #666666;
     padding-left: 5px;
 }
+
+
+@media screen and (max-width: 700px) {
+
+    .container {
+        height: 340vh;
+    }
+
+    .imageContainer {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .imageContainer img {
+        width: 100vw;
+        height: 50vh;
+        object-fit: cover;
+        /* opacity: 0.8; */
+        filter: brightness(50%);
+        /* z-index: 3; */
+    }
+
+    .text {
+        position: absolute;
+        top: 8%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 52px;
+        font-weight: 600;
+    }
+
+
+    .textOne {
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    .textTwo {
+        letter-spacing: 6px;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .blackStrap {
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .blackStrap p,
+    h2 {
+        text-align: center;
+    }
+
+    .features {
+        flex-direction: column;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .feature {
+        width: 100%;
+    }
+
+    .icons {
+        flex-direction: column;
+    }
+}

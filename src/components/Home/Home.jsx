@@ -22,7 +22,7 @@ export default function Home() {
                 <div className={styles.blackStrap}>
                     <div>
                         <p>LOOKING FOR A BEST QUALITY LAPTOP BATTRIES?</p>
-                        <h3>WE ARE ALWAYS HERE FOR YOU</h3>
+                        <h2>WE ARE ALWAYS HERE FOR YOU</h2>
                     </div>
                     <a href="https://www.mobitechllp.com/category/Laptop/Battery" target='_blank'>Buy Now</a>
                 </div>

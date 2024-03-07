@@ -8,7 +8,7 @@ function Footer() {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between w-full">
                     <div className="mb-6 md:mb-0">
-                        <Link to="/" className={styles.logoImg}>
+                        <div className={styles.logoImg}>
                             <img
                                 src="./images/full-logo.png"
                                 className="mr-3 h-16"
@@ -19,7 +19,7 @@ function Footer() {
                                 <p>Mobile: <a href="tel:+919821050718">+91-9821050718</a></p>
                                 <p>Email: <a href="mailto:customercare@examob.com">customercare@examob.com</a></p>
                             </div>
-                        </Link>
+                        </div>
                     </div>
                     <div className={styles.textContainer}>
                         <h2 className="mb-6 text-sm font-semibold uppercase">About Us</h2>
@@ -30,23 +30,23 @@ function Footer() {
                             <h2 className="mb-6 text-sm font-semibold uppercase">Resources</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="/" className="hover:underline">
+                                    <Link to="/" className="text-gray-300 hover:underline hover:text-gray-400">
                                         Home
                                     </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link to="/about" className="hover:underline">
+                                    <Link to="/about" className="text-gray-300 hover:underline hover:text-gray-400">
                                         About Us
                                     </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link to="/services" className="hover:underline">
+                                    <Link to="/services" className="text-gray-300 hover:underline hover:text-gray-400">
                                         Services
                                     </Link>
                                 </li>
 
                                 <li>
-                                    <Link to="/contact" className="hover:underline">
+                                    <Link to="/contact" className="text-gray-300 hover:underline hover:text-gray-400">
                                         Contact Us
                                     </Link>
                                 </li>
@@ -57,7 +57,7 @@ function Footer() {
                             <h2 className="mb-6 text-sm font-semibold uppercase">Legal</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="/privacy_policy" className="hover:underline">
+                                    <Link to="/privacy_policy" className="text-gray-300 hover:underline hover:text-gray-400">
                                         Privacy Policy
                                     </Link>
                                 </li>

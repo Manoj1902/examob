@@ -1,0 +1,115 @@
+.container {
+    height: 278vh;
+    position: relative;
+    color: white;
+
+}
+
+.container h3,
+p {
+
+    text-align: center;
+}
+
+.section1 {
+    width: 100vw;
+}
+
+h3 {
+    color: #111111;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.section1 img {
+    height: 55vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.textOne {
+    font-size: 48px;
+}
+
+.textTwo {
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.servicesContainer {
+    padding-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #111111;
+}
+
+.services h4 {
+    font-size: 32px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #666666;
+}
+
+.services ul {
+    list-style: disc;
+    padding-left: 50px;
+}
+
+.services li {
+    line-height: 60px;
+    color: #666666;
+    list-style-type: '▸';
+    padding-inline-start: 1.5ch;
+}
+
+.seeMoreContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    background-color: #f6f6f6;
+    padding: 70px 0;
+    -webkit-box-shadow: 0px -9px 10px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -9px 10px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -9px 10px -11px rgba(0, 0, 0, 0.75);
+    margin-top: 60px;
+}
+
+.seeMoreContainer h2 {
+    text-transform: uppercase;
+    letter-spacing: 1.85px;
+    color: #111111;
+}
+
+.seeMoreContainer a {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    background-color: #141414;
+    cursor: pointer;
+}
+
+.seeMoreContainer a:hover {
+    background-color: #A1A1A1;
+    color: #111111;
+}
